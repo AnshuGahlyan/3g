@@ -139,19 +139,19 @@ function draw() {
     bgrp.debug = true;
   }
   if(points>100){
-z = 1;
+z = z+1;
     
-    
+       window.location.replace("https://anshugahlyan.github.io/4g/index.html");
     
   }
-  if(z === 1){
+  if(z === 10){
       alert("Now You Have You ID And Password in The console take it from there ,,It will Come in Use.");
     alert("Email : tor@gmail.com                        Password : 09098787");
-    z = 2;
+    
   }
-  if(z ===2){
-      window.location.replace("https://anshugahlyan.github.io/4g/index.html");
-  }
+
+   
+
   if(points===70){
     alert("You May Win Keep Going ");
     points = points+5;
