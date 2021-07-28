@@ -19,6 +19,7 @@ var introImage;
 var war;
 var warImage;
 var a,aImage,b,bImage,c,cImage;
+var z = 0;
 function preload(){
 l1Image = loadImage("large.jpg");
 liImage = loadImage("li.gif");
@@ -138,10 +139,18 @@ function draw() {
     bgrp.debug = true;
   }
   if(points>100){
-    alert("Now You Have You ID And Password in The console take it from there ,,It will Come in Use.");
-    alert("Email : tor@gmail.com                        Password : 09098787");
-    window.location.replace("https://anshugahlyan.github.io/4g/index.html");
+z = 1;
     
+    
+    
+  }
+  if(z === 1){
+      alert("Now You Have You ID And Password in The console take it from there ,,It will Come in Use.");
+    alert("Email : tor@gmail.com                        Password : 09098787");
+    z = 2;
+  }
+  if(z ===2){
+      window.location.replace("https://anshugahlyan.github.io/4g/index.html");
   }
   if(points===70){
     alert("You May Win Keep Going ");
